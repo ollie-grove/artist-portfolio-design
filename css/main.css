@@ -314,20 +314,21 @@ textarea {
 /* TABLET STYLES */
 
 @media screen and (min-width: 799px) {
+
+
   .nav-list {
     display: block !important;
   }
-  
 
   /* "about - TABLET " */
 
   .about {
     display: flex; 
-    align-items: left; 
+    align-items: center; 
     justify-content: center;
-    flex-direction: row;
-    max-width: 60%; 
+    flex-direction: row-reverse;
     margin: 20px; 
+    background-color: rgba(210, 186, 174, 0.94);;
   }
 
   .about-description {
@@ -345,6 +346,16 @@ textarea {
 
 
 /* END TABLET STYLES */
+
+
+/* DESKTOP STYLES */
+
+@media screen and (min-width: 1415px) {
+  body {
+    background-size: cover;
+  }
+  
+}
 
 
   /*
