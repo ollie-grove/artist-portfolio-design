@@ -100,16 +100,48 @@ textarea {
     background-repeat: no-repeat;
     background-color: #DEDFE1; 
     background-size: auto;
+    font-family: 'Josefin Slab', serif;
+  }
+
+  h1, h2, h3, h4, h5 {
+    font-family: 'Amatic SC', cursive; 
   }
 
   h1 {
-    font-family: 'Amatic SC', cursive;
     font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
   }
 
   p {
    font-family: 'Josefin Slab', serif;
    font-size: 1.5rem;
+  }
+
+  footer {  
+    justify-content: center;
+    text-align: center;
+    background-color: #3D2825;
+    border-radius: 50px;
+    color: white; 
+    padding: 30px; 
+  }
+
+  footer a {
+    font-size: 2.54rem;
+    font-family: 'Josefin Slab', serif;
+    color: white;
+    text-decoration: none;
+  }
+
+  footer h3, h5 {
+    font-size: 2rem;
+  }
+
+  .social-icons {
+    list-style-type: none;
   }
 
 
@@ -300,7 +332,6 @@ textarea {
     max-width: 70%;
     border-radius: 79% 21% 74% 26% / 37% 56% 44% 63%
     ;
-    margin: 10px;
     position: relative;
   }
 
@@ -308,7 +339,55 @@ textarea {
     padding: 35px; 
   }
 
-  
+  /* END ABOUT */
+
+  /* PORTFOLIO */
+
+  #portfolio {
+    padding: 15px; 
+    margin: 15px; 
+    background-color: rgba(166, 152, 86, 0.60);
+    border-radius: 50px;
+  }
+
+  /* END PORTFOLIO */
+   
+  /* TATTOO CONTACT FORM */
+
+  #tattoo-contact-form {
+    padding: 15px; 
+    margin: 15px; 
+    background-color: rgba(89, 89, 82, .2);
+    border-radius: 50px;
+    text-align: center;
+  }
+
+  .form-style {
+    margin: 10px auto;
+    width: 90%;
+  }
+
+  /* END TATTOO CONTACT FORM */
+
+
+  /* PRINT STORE */
+
+  #store {
+    padding: 15px; 
+    margin: 15px; 
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 50px;
+    text-align: center;
+  }
+
+  #store a {
+    color: #000;
+    
+  }
+
+  /* END PRINT STORE */
+
+
   
 
 /* TABLET STYLES */
